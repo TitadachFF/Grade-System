@@ -7,7 +7,8 @@ import { DemoContainer, DemoItem } from "@mui/x-date-pickers/internals/demo";
 
 const Calendar = () => {
   return (
-    <div className="flex  justify-between container mx-auto px-[150px] md:mx-auto mt-[30px] ">
+    // <div className="flex border  justify-between container mx-auto px-[600px] md:mx-auto mt-[30px] ">
+    <div className="w-[500px]  flex justify-end container  mt-[90px] ">
          <div className="font-bold   ">
         <p className="flex">
           ปฏิทินการจบ
@@ -39,6 +40,7 @@ const Calendar = () => {
         </div>
     </div>
     </div>
+    // </div>
 
   );
 };

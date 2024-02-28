@@ -2,7 +2,8 @@ import React from "react";
 
 const Guide = () => {
   return (
-    <div className="flex  justify-between container mx-auto px-[150px] md:mx-auto mt-[30px] ">
+    // <div className="flex border  justify-between container mx-auto px-[600px] md:mx-auto mt-[100px] ">
+      <div className="w-[500px]  flex justify-end container  mt-[100px] ">
       <div className="mt-[20px]">
         <a className="btn bg-red text-white rounded-full mr-[50px] text-[17px]">
           ดูตัวอย่างเอกสารที่สมบูรณ์
@@ -22,6 +23,7 @@ const Guide = () => {
         </a>
       </div>
     </div>
+    // </div>
   );
 };
 

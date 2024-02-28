@@ -4,7 +4,7 @@ import Home from "../pages/home/Home";
 import { createBrowserRouter } from "react-router-dom";
 import SignIn from "../components/SignIn";
 
-const Router = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
@@ -13,12 +13,12 @@ const Router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/signin",
+        element: <SignIn />,
+      },
     ],
-  },
-  {
-    path: "/signin",
-    element: <SignIn />,
   },
 ]);
 
-export default Router;
+export default router;
