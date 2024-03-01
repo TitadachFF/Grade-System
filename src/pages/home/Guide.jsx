@@ -6,7 +6,7 @@ const Guide = () => {
       <div className="w-[500px]  flex justify-end container  mt-[100px] ">
       <div className="mt-[20px]">
         <a className="btn bg-red text-white rounded-full mr-[50px] text-[17px]">
-          ดูตัวอย่างเอกสารที่สมบูรณ์
+          ดูตัวอย่างเอกสารคำร้องที่สมบูรณ์
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

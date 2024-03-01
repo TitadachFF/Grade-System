@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Modal from "./Modal";
 
 const Navbar = () => {
   return (
@@ -24,13 +25,15 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
-        <Link
+        <button
           to="/SignIn"
           className="btn bg-red text-white rounded-full mr-[50px] w-[150px]"
+          onClick={() => document.getElementById("login").showModal()}
         >
           เข้าสู่ระบบ
-        </Link>
+        </button>
       </div>
+      <Modal name="login" />
     </div>
   );
 };
